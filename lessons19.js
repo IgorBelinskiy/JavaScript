@@ -1,7 +1,7 @@
 let box = document.getElementById('box'),
    btn = document.getElementsByTagName('button'),
    circle = document.getElementsByClassName('circle'),
-   heart = document.querySelectorAll('.heart'),
+   heart = document.querySelectorAll('.heart'),   //  создается псевдомассив
    oneHeart = document.querySelector('.heart'), // обращение к первому селектору
    wrapper = document.querySelector('.wrapper');
 
