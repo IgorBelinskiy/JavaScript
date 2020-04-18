@@ -32,7 +32,7 @@ let div = document.createElement('div'),
    text = document.createTextNode('Тут был я!');
 console.log(div);
 console.log(text);
-div.classList.add('black');
+div.classList.add('black'); // добавить класс
 
 // document.body.appendChild(div); // добавление элемента на страницу в конец родителя body
 
