@@ -132,7 +132,7 @@ window.addEventListener('DOMContentLoaded', function () {
    };
 
    let form = document.querySelector('.main-form');
-   let input = form.querySelector('input');
+   let input = form.getElementsByTagName('input');
    let statusMessage = document.createElement('div');
 
    statusMessage.classList.add('status');
