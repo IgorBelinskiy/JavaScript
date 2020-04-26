@@ -1,0 +1,11 @@
+.box {
+   width: 400px;
+   height: 350px;
+   padding: 0px 30px 0px 30px;
+   background-color: #000000;
+   color: #ffffff;
+   text-align: center;
+   margin: 0 auto;
+   overflow: scroll;
+   box-sizing: border-box;
+}
