@@ -1,0 +1,18 @@
+//Angular
+1) node.js --> npm
+2) typeScript
+3) Webpack (для angular)
+4) MVC (model view controler)
+5) Angular
+
+//React
+1) node.js --> npm
+2) Babel
+3) JSX
+4) Webpack
+5) React
+
+//Vue
+1) node.js --> npm
+2) Babel
+3) Webpack
