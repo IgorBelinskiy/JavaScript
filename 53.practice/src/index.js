@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import App from './components/app';
 
@@ -87,20 +88,3 @@ ReactDOM.render(
   // <All/>,
   document.getElementById('root')
 );
-
-
-
-
-// nextYear = () => {  // 3й
-//   this.setState(state => ({
-//     years: ++state.years
-//   }))
-// }
-
-
-
-// this.nextYear = () => {  // 2йспособ
-  //     this.setState(state => ({
-  //           years: ++state.years
-  //         }))
-  //   

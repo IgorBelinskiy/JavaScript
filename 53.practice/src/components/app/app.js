@@ -10,9 +10,22 @@ import './app.css'
 import '../app-header/app-header.css'
 import '../post-add-form/post-add-form.css'
 import '../post-list/post-list.css'
-import '../post-list-item/post-list-item.css'
+// import '../post-list-item/post-list-item.css'
 import '../post-status-filter/post-status-filter.css'
 import '../search-panel/search-panel.css'
+
+import styled from 'styled-components'
+
+const AppBlock = styled.div`
+   margin: 0 auto;
+   max-width: 800px;
+`
+
+const StyledAppBlock = styled(AppBlock)`
+   background: grey;
+`
+
+
 
 const data = [
    {label: 'Going to learn React', important: true, id: 'qwe'},
@@ -22,7 +35,7 @@ const data = [
 
 const App = () => {
    return (
-      <div className="app">
+      <StyledAppBlock>
          <AppHeader></AppHeader>
          <div className="search-panel d-flex">
             <SearchPanel></SearchPanel>
@@ -30,7 +43,7 @@ const App = () => {
          </div>
          <PostList posts={data}></PostList>
          <PostAddForm></PostAddForm>
-      </div>
+      </StyledAppBlock>
       
    )
 }

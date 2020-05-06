@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 
+import './post-list-item.sass'
+
 export default class PostListItem extends Component {
    constructor(props) {
       super(props);
