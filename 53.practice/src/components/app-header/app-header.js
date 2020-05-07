@@ -14,7 +14,7 @@ const Header = styled.div`
    }
    h2 {
       font-size: 1.2rem;
-      color: grey;
+      color: blue;
       cursor: pointer;
       transition: all 2s;
       :hover {
