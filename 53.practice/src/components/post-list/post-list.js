@@ -3,9 +3,9 @@ import { ListGroup } from 'reactstrap';
 
 import PostListItem from '../post-list-item';
 
-const PostList = ({posts, onDelete}) => {
+const PostList = ({posts, onDelete, onToggleImportant, onToggleLiked}) => {
 
-   const elements = posts.map(item => {
+   const elements = posts.map((item) => {
       // Простой способ проверки на объект + содержится ли в нем информация
       if ( typeof item === 'object' && isEmpty(item) ){ 
       const {id, ...itemProps} = item;
@@ -14,6 +14,8 @@ const PostList = ({posts, onDelete}) => {
                <PostListItem 
                   {...itemProps}
                   onDelete={() => onDelete(id)}
+                  onToggleImportant={() => onToggleImportant(id)}
+                  onToggleLiked={() => onToggleLiked(id)}
                // label={item.label} 
                // important={item.important}
                />
