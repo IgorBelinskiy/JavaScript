@@ -1,0 +1,25 @@
+body {
+   background-color: grey;
+   text-align: center;
+}
+#dec,
+#inc,
+#rnd {
+   display: inline-block;
+   width: 100px; 
+   height: 100px; 
+   background-color: blue; 
+   border: 22px solid blueviolet; 
+   font-size: larger; 
+   cursor: pointer;
+   margin-right: 10px;
+}
+#res {
+   display: inline-block;
+   width: 100px;
+   height: 100px; 
+   background-color: blue; 
+   border: 22px solid rgb(224, 0, 0); 
+   font-size: larger; 
+   cursor: pointer;
+}
