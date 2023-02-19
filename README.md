@@ -1,1 +1,22 @@
 # JavaScript
+sdcasc
+ascasc
+asca
+casc
+ac
+asc
+asc
+sc
+asc
+as
+c
+asc
+asc
+as
+cas
+c
+ac
+as
+c
+asc
+asc
